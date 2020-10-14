@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+Theme Name: AIVECプラグイン販売サイト
+Author: suganuma kensuke
+Description: AIVECプラグイン販売のWordPressテーマ
+Version: 1.0
+*/
+
+$black1:rgb(35,35,35);
+$black2:rgb(50,50,50);
+$black3:rgb(65,65,65);
+$blue:#2C7EC2;
+$orange:#FF8300;
+
+* {
+    padding:0;
+    margin:0;
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:400;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    color:$black1;
+    background-color:rgb(245,245,245);
+    height:100%;
+}
+
+#body {
+    position:relative;
+    min-height:100%;
+}

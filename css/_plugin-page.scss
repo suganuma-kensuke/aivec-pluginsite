@@ -1,0 +1,141 @@
+#plugin-main-wrapper {
+    margin-top:100px;
+    h1 {
+        font-size:28px;
+        font-weight:700;
+        width:1000px;
+        margin:0 auto;
+    }
+    h6 {
+        font-size:13px;
+        width:1000px;
+        margin:10px auto 0;
+    }
+  }
+  
+#plugin-main {
+    background-color:rgb(235,235,235);
+    margin-top:55px;
+}
+
+#plugin {
+    width:850px;
+    padding:50px 0;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+
+#plugin-left {
+    margin-top:15px;
+    float:left;
+}
+
+#plugin-right {
+    width:550px;
+    float:right;
+    h2 {
+        font-size:25px;
+        font-weight:700;
+        margin-top:10px;
+    }
+    p {
+        font-size:13px;
+        margin-top:15px;
+        line-height:28px;
+    }
+}
+
+#plugin-price {
+    width:185px;
+    text-align:right;
+    float:right;
+    position:absolute;
+    right:0;
+    bottom:68px;
+}
+
+#getugaku {
+    font-size:11.5px;
+    color:$black2;
+    background-color:rgb(245,245,245);
+    padding:3px 5px;
+    margin-top:6.5px;
+    border-radius:3px;
+    border:solid 1px rgba(0,0,0,0.3);
+    float:left;
+}
+
+#kakaku {
+    font-size:13px;
+    span {
+        font-size:23px;
+        font-weight:700;
+        color:red;
+    }
+}
+
+#kounyu {
+    margin:25px 5px 0 0;
+    float:right;
+    .fa-shopping-cart {
+        margin-right:10px;
+    }
+    a {
+        font-size:15px;
+        color:white;
+        background-color:rgb(255,125,0);
+        padding:13px 30px;
+        border-radius:30px;
+        text-decoration:none;
+        &:hover {
+            opacity:0.8;
+            transition:all 0.5s;
+        }
+    }
+}
+
+#plugin-detail {
+width:800px;
+margin:50px auto 0;
+}
+
+#plugin-list {
+    li {
+        font-size:13px;
+        line-height:25px;
+        list-style:none;
+        a {
+            font-size:11.5px;
+            color:red;
+
+        }
+    }
+}
+
+#plugin-table {
+    margin-top:50px;
+}
+
+#plugin-table dl {
+    font-size:13px;
+    margin-top:30px;
+    border-bottom:0.5px solid rgba(127,127,127,0.3);
+}
+
+#plugin-table dt,dd {
+    padding:10px;
+    border-top:0.5px solid rgba(127,127,127,0.3);
+}
+
+#plugin-table dl dt {
+    font-weight:700;
+    background-color:rgb(235,235,235);
+    width:250px;
+    padding-left:15px;
+    float:left;
+}
+
+#plugin-table dl dd {
+    padding-left:280px;
+}
